@@ -16,8 +16,6 @@ numpy
 
 Installation
 
-Installation
-
 Clone this repository:
 Copygit clone https://github.com/RaghavB1404/ForexCarryTrade.git
 
@@ -28,7 +26,7 @@ Copypip install pandas numpy
 Usage
 
 Import the necessary libraries and the CarryTradeStrategy class:
-pythonCopyimport pandas as pd
+import pandas as pd
 import numpy as np
 from carry_trade_strategy import CarryTradeStrategy
 
@@ -41,7 +39,7 @@ Target currency interest rate (e.g., 'EUR_rate')
 
 
 Initialize and run the strategy:
-pythonCopystrategy = CarryTradeStrategy(data, 'USD', 'EUR')
+strategy = CarryTradeStrategy(data, 'USD', 'EUR')
 results = strategy.run_strategy()
 
 print("Strategy Performance:")
