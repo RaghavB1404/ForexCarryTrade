@@ -17,10 +17,10 @@ numpy
 Installation
 
 Clone this repository:
-Copygit clone https://github.com/RaghavB1404/ForexCarryTrade.git
+```git clone https://github.com/RaghavB1404/ForexCarryTrade.git```
 
 Install the required packages:
-Copypip install pandas numpy
+```pip install pandas numpy```
 
 
 Usage
